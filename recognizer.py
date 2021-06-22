@@ -7,8 +7,8 @@ images = os.listdir(folder_name)                                    # list semua
 
 face_cascade_file = 'Cascade Classifier/face-detect.xml'
 face_cascade = cv2.CascadeClassifier(face_cascade_file)            # Load cascade classifiernya
-# recognize = cv2.face.LBPHFaceRecognizer_create()                    # Create recognizer object
-recognizer = cv2.reco
+recognizer = cv2.face.LBPHFaceRecognizer_create()                    # Create recognizer object
+# recognizer = cv2.reco
 
 
 image_arrays = []                                                   # Containes semua array data wajah
